@@ -29,6 +29,8 @@ setup(
     license='GNU General Public License v3.0',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [],
+        'console_scripts': [
+            'lidar_simulator = var_e9t.lidar_simulator:main',
+        ],
     },
 )
