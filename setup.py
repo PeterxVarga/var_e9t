@@ -31,6 +31,7 @@ setup(
     entry_points={
         'console_scripts': [
             'lidar_simulator = var_e9t.lidar_simulator:main',
+            'safety_monitor = var_e9t.safety_monitor:main',
         ],
     },
 )
